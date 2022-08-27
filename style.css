@@ -1,0 +1,119 @@
+.Header{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 1.25vw;
+    margin-top: 3%;
+    margin-left: 14%;
+    
+}
+
+.ScareCrowimage{
+    display: block;
+    max-width: 29vw;
+    height: 50%;   
+}
+
+.litcontainer{
+    width: 40%;
+}
+
+
+.text, .content{
+    margin-top: 0;
+  
+    font-weight: 700;
+    font-size: 3.3vw;
+    line-height: 94.78px;
+    transition: all .5s;
+}
+
+.BigContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 1.25vw;
+    /* font-size: 24px;*/
+    line-height: 35.54px;
+    width: 62%;
+}
+
+.button{
+    margin-top: 5vh;
+   
+    font-weight: 600;
+    color: white;
+    background-color: #333333;
+    width: 35%;
+    height: 7vh;
+    transition: all .5s;
+
+}
+
+@media (max-width:1440px) {
+    .ScareCrow-img{
+        max-width: 35vw;
+    }
+
+}
+
+
+@media (max-width:1232px) {
+    .header{
+        font-size: 2vw;
+    }
+    .button{
+        width: 160px;
+        height: 6vw;
+    }
+}
+
+
+
+@media (max-width:800px) {
+    .header{
+        font-size: 5vw;
+        margin-left: 5%;
+    }
+    .ScareCrowimage{
+        display: inline-block;
+        min-width: 35vh;
+    }
+    .BigContainer{
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    .litcontainer{
+        width: 100%;
+    }
+
+    .text{
+        font-size: 9vw;
+        line-height: 12vw;
+    }
+
+    .content{
+        width: 80%;
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+
+    .buttpn{
+        font-size: 2.1vw;
+        width: 37vw;
+        height: 7vh;
+    }
+
+
+}
