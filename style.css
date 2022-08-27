@@ -1,5 +1,4 @@
 .Header{
-    font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 1.25vw;
     margin-top: 3%;
@@ -10,11 +9,11 @@
 .ScareCrowimage{
     display: block;
     max-width: 29vw;
-    height: 50%;   
+    height: 56%;   
 }
 
 .litcontainer{
-    width: 40%;
+    width: 38%;
 }
 
 
@@ -28,7 +27,7 @@
 }
 
 .BigContainer{
-    width: 80%;
+    width: 78%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -41,16 +40,15 @@
 
 .content{
     color: #4F4F4F;
-    font-weight: 400;
+    font-weight: 370;
     font-size: 1.25vw;
     /* font-size: 24px;*/
     line-height: 35.54px;
-    width: 62%;
+    width: 60%;
 }
 
 .button{
-    margin-top: 5vh;
-   
+    margin-top: 4vh;
     font-weight: 600;
     color: white;
     background-color: #333333;
@@ -104,7 +102,7 @@
     }
 
     .content{
-        width: 80%;
+        width: 78%;
         font-size: 3.5vw;
         line-height: 6vw;
     }
